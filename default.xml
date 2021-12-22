@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="origin"
+           fetch="https://github.com/Tonyhuanglyy/repotest"/>
+  <default revision="main"
+           remote="origin"
+           sync-j="12" />
+
+  <project name="build" path="repotest/build" upstream="main">
+  </project>
+  <project name="device" path="repotest/device" upstream="main"/>
+</manifest>
